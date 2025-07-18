@@ -10,8 +10,8 @@ export default function Home() {
             <Image
               src="/images/Logo.png"
               alt="Logo"
-              width={100}
-              height={100}
+              width={60}
+              height={60}
               className="object-contain"
             />
           </Link>

@@ -1,6 +1,15 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "MatchHub",
+  description: "Connectez vos stat de jeux et trouvez des partenaires de jeu",
+  icons: {
+    icon: "/favicon.png",
+  },
+};
 
 export default function RootLayout({
   children,
