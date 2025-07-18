@@ -17,16 +17,28 @@ export default function Home() {
           </Link>
 
           <div className="hidden md:flex items-center space-x-12">
-            <Link href={"/dashboard"} className="text-lg text-white">
+            <Link
+              href={"/dashboard"}
+              className="text-lg hover:text-blue-400 transition-colors"
+            >
               Dashboard
             </Link>
-            <Link href={"/matches"} className="text-lg text-white">
+            <Link
+              href={"/matches"}
+              className="text-lg hover:text-blue-400 transition-colors"
+            >
               Matches
             </Link>
-            <Link href={"/profile"} className="text-lg text-white">
+            <Link
+              href={"/profile"}
+              className="text-lg hover:text-blue-400 transition-colors"
+            >
               Profile
             </Link>
-            <Link href={"/login"} className="text-lg text-white">
+            <Link
+              href={"/login"}
+              className="text-lg hover:text-blue-400 transition-colors"
+            >
               Login
             </Link>
           </div>
